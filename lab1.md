@@ -13,19 +13,24 @@ Share an example of using the command with a path to a file as an argument.
 cd
 
 ```
-  
   2. **cd lecture1** changes the current working directory to /home/lecture1
+```
+cd lecture1
+
+```
   3. **cd lecture1/Hello.java** prompts "Hello.java is not a directory"
+```
+cd lecture1/Hello.java
+
+```
 
 * *ls*:
-```
-{
-ls
-}
-```
   1. **ls** lists all the files and directories under current working directory
-  2. **ls lecture1** lists all the files and directories under lecture1 
-  3. **ls lecture1/Hello.java** literally prints the path to the file
+```
+ls
+```
+  3. **ls lecture1** lists all the files and directories under lecture1 
+  4. **ls lecture1/Hello.java** literally prints the path to the file
 
 * *cat*:
 ```
