@@ -16,7 +16,7 @@ Share an example of using the command with a path to a file as an argument.
 2. **ls lecture1** lists all the files and directories under lecture1 
 3. **ls lecture1/Hello.java** literally prints the path to the file
 
-## cat:
-1. **cat** changes the terminal to pure text editing mode
-2. **cat lecture1** prompts lecture1 is a directory
-3. **cat lecture1/Hello.java** prints out all the text in this file
+* cat:
+  1. **cat** changes the terminal to pure text editing mode
+  2. **cat lecture1** prompts lecture1 is a directory
+  3. **cat lecture1/Hello.java** prints out all the text in this file
