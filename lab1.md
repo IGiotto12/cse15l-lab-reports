@@ -9,29 +9,37 @@ Share an example of using the command with a path to a file as an argument.
 ## cd
 1. **cd without any arguments** changes the current working directory to /home
 ```
-cd
+[user@sahara ~]$ cd
+[user@sahara ~]$ pwd
+/home
 ```
 2. **cd with a path to a directory** changes the current working directory to the path directory
 ```
-cd lecture1
+[user@sahara ~]$ cd
+[user@sahara ~/lecture1]$ pwd
+/home/lecture1
 ```
 3. **cd with a path to a file** throws an error and prompts that the path is not a directory
 ```
-cd lecture1/Hello.java
+[user@sahara ~]$ cd lecture1/Hello.java
+bash: cd: lecture1/Hello.java: Not a directory
 ```
 
 ## ls
 1. **ls without any arguments** lists all the files and directories under current working directory
 ```
-ls
+[user@sahara ~]$ ls
+lecture1
 ```
 2. **ls with a path to a directory** lists all the files and directories under lecture1
 ```
-ls lecture1
+[user@sahara ~]$ ls lecture1
+Hello.class  Hello.java  Hello.txt  messages  README
 ```
 3. **ls with a path to a file**  prints the path to the file
 ```
-ls lecture1/Hello.java
+[user@sahara ~]$ ls lecture1/Hello.java
+lecture1/Hello.java
 ```
 
 ## cat
