@@ -1,4 +1,4 @@
-# **LAB1**
+## **LAB1**
 
 For each of the commands cd, ls, and cat, and using the workspace you created in this lab:
 
@@ -7,7 +7,7 @@ Share an example of using the command with a path to a directory as an argument.
 Share an example of using the command with a path to a file as an argument.
 
 
-**cd**:
+## cd
 1. **cd** without any arguments will change the current working directory to /home
 ```
 cd
@@ -21,7 +21,7 @@ cd lecture1
 cd lecture1/Hello.java
 ```
 
-**ls**:
+## ls
 1. **ls** lists all the files and directories under current working directory
 ```
 ls
@@ -35,7 +35,7 @@ ls lecture1
 ls lecture1/Hello.java
 ```
 
-**cat**:
+## cat
 1. **cat** changes the terminal to pure text editing mode
 ```
 cat
