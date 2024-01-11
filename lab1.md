@@ -20,7 +20,8 @@ cd lecture1
 ```
 cd lecture1/Hello.java
 ```
-\
+
+
 ## ls
 1. **ls without any arguments** lists all the files and directories under current working directory
 ```
@@ -34,7 +35,8 @@ ls lecture1
 ```
 ls lecture1/Hello.java
 ```
-\
+
+
 ## cat
 1. **cat without any arguments** changes the terminal to pure text editing mode
 ```
