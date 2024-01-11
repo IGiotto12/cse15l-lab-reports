@@ -8,7 +8,7 @@ Share an example of using the command with a path to a file as an argument.
 
 
 ## cd
-1. **cd** without any arguments will change the current working directory to /home
+1. **cd without any arguments** changes the current working directory to /home
 ```
 cd
 ```
@@ -20,9 +20,9 @@ cd lecture1
 ```
 cd lecture1/Hello.java
 ```
-
+\
 ## ls
-1. **ls** lists all the files and directories under current working directory
+1. **ls without any arguments** lists all the files and directories under current working directory
 ```
 ls
 ```
@@ -34,9 +34,9 @@ ls lecture1
 ```
 ls lecture1/Hello.java
 ```
-
+\
 ## cat
-1. **cat** changes the terminal to pure text editing mode
+1. **cat without any arguments** changes the terminal to pure text editing mode
 ```
 cat
 ```
