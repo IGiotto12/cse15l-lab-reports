@@ -43,15 +43,20 @@ lecture1/Hello.java
 ```
 
 ## cat
-1. **cat without any arguments** changes the terminal to pure text editing mode
+1. **cat without any arguments** throws an erorr
 ```
-cat
+[user@sahara ~]$ cat
 ```
 2. **cat with a path to a directory** throws an error and prompts that the path is a directory
 ```
-cat lecture1
+[user@sahara ~]$ cat lecture1
+cat: lecture1: Is a directory
 ```
 3. **cat with a path to a file** prints out all the text in this file
 ```
-cat lecture1/Hello.java
+[user@sahara ~]$ cat lecture1/README
+To use this program:
+
+javac Hello.java
+java Hello messages/en-us.txt
 ```
