@@ -58,6 +58,7 @@ cat: lecture1: Is a directory
 ```
 [user@sahara ~]$ cat lecture1/README
 To use this program:
+
 javac Hello.java
 java Hello messages/en-us.txt
 ```
