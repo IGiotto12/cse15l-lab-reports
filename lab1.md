@@ -31,7 +31,7 @@ bash: cd: lecture1/Hello.java: Not a directory
 [user@sahara ~]$ ls
 lecture1
 ```
-2. **ls with a path to a directory** lists all the files and directories under `/lecture1`
+2. **ls with a path to a directory** lists all the files and directories under `lecture1`
 ```
 [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  Hello.txt  messages  README
