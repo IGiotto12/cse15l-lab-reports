@@ -7,7 +7,7 @@ Share an example of using the command with a path to a directory as an argument.
 Share an example of using the command with a path to a file as an argument.
 
 ## cd
-1. **cd without any arguments** changes the current working directory to /home
+1. **cd without any arguments** changes the current working directory to `/home`
 ```
 [user@sahara ~]$ cd
 [user@sahara ~]$ pwd
@@ -31,7 +31,7 @@ bash: cd: lecture1/Hello.java: Not a directory
 [user@sahara ~]$ ls
 lecture1
 ```
-2. **ls with a path to a directory** lists all the files and directories under lecture1
+2. **ls with a path to a directory** lists all the files and directories under `/lecture1`
 ```
 [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  Hello.txt  messages  README
