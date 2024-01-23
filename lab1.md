@@ -15,7 +15,7 @@ Share an example of using the command with a path to a file as an argument.
 ```
 2. **cd with a path to a directory** changes the current working directory to the path directory
 ```
-[user@sahara ~]$ cd
+[user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$ pwd
 /home/lecture1
 ```
