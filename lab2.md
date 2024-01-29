@@ -61,7 +61,7 @@ class ChatServer{
     }
 }
 ```
-<br></br>
+
 **Output Screenshots**
   <br>![first e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p1-lab2.png)</br> 
   - ```handleRequest``` is called in my code.
@@ -74,14 +74,13 @@ class ChatServer{
 - The value of ```chatHistory``` field has added "yash: How are you" after the method call, because it keeps track of all the input query. 
 <br></br>
 ## Part 2
+The absolute path to the private key for my SSH key is ```C:\Users\windows/.ssh/id_rsa.pub```
 <br>![third e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p3-lab2.png)</br>
-    - The absolute path to the private key for my SSH key is ```C:\Users\windows/.ssh/id_rsa.pub```
 
+<br>The absolute path to the public key for my SSH key is ```/home/linux/ieng6/oce/5o/jiw188/.ssh```</br>
 ![forth e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p4-lab2.png)
-    <br>- The absolute path to the public key for my SSH key is ```/home/linux/ieng6/oce/5o/jiw188/.ssh```</br>
 
 ![fifth e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p5-lab2.png)
-<br></br>
 ## Part 3
 For the past two weeks of CSE15l labs, I learnt how URL works and how can it be implemented using Java libriary. In addition, I now understand how to use server to receive query and handle each as an application of search engine. 
 More interestingly, I am able to connect local machines with remote or virtual machines using ```ssh``` command and ```scp``` to copy any files to a specified directory path. 
