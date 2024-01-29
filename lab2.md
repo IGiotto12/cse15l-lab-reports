@@ -72,7 +72,7 @@ class ChatServer{
 - ```handleRequest``` is called in my code.
 - The method only has one URI type variable argument, so the URL's value is passed through this method. ```chatHistory``` is a significant value or field to record queries or "chats".
 - The value of ```chatHistory``` field has added "yash: How are you" after the method call, because it keeps track of all the input query. 
-<br></br>
+<br>
 ## Part 2
 The absolute path to the private key for my SSH key is ```C:\Users\windows/.ssh/id_rsa.pub```
 <br>![third e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p3-lab2.png)
