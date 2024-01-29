@@ -65,13 +65,13 @@ class ChatServer{
 **Output Screenshots**
 <br>![first e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p1-lab2.png)
   - ```handleRequest``` is called in my code.
-  - The method only has one URI type variable argument, so the URL's value is passed through this method. ```chatHistory``` is a significant value or field to record queries or "chats".
-  - The value of ```chatHistory``` field has updated from empty to "jpolitz: Hello" after the method call, because it keeps track of the input query.
+  - The method only has one URI type variable argument, so the URL's value is passed through this method. ```chatHistory``` is a significant field to record queries or "chats", along with other temporal values like String ```user``` and ```msg```.
+  - The value of ```chatHistory``` field has updated from empty to "jpolitz: Hello" after the method call, because we input query with the given format to provide updates in the values of ```user``` and ```msg```.
 
   <br>![second e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p2-lab2.png)
 - ```handleRequest``` is called in my code.
-- The method only has one URI type variable argument, so the URL's value is passed through this method. ```chatHistory``` is a significant value or field to record queries or "chats".
-- The value of ```chatHistory``` field has added "yash: How are you" after the method call, because it keeps track of all the input query. 
+- The method only has one URI type variable argument, so the URL's value is passed through this method. ```chatHistory``` is a significant field to record queries or "chats", along with other temporal values like String ```user``` and ```msg```.
+- The value of ```chatHistory``` field has added "yash: How are you" after the method call, because the field is updated with new ```user``` and ```msg``` passed into the URI ```url``` argument.
 <br>
 ## Part 2
 The absolute path to the private key for my SSH key is ```C:\Users\windows/.ssh/id_rsa.pub```
