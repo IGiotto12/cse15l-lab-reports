@@ -74,12 +74,12 @@ class ChatServer{
 - The value of ```chatHistory``` field has added "yash: How are you" after the method call, because it keeps track of all the input query. 
 <br></br>
 ## Part 2
-![third e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p3-lab2.png)
+<br>![third e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p3-lab2.png)</br>
     - The absolute path to the private key for my SSH key is ```C:\Users\windows/.ssh/id_rsa.pub```
-<br></br>
+
 ![forth e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p4-lab2.png)
-    - The absolute path to the public key for my SSH key is ```/home/linux/ieng6/oce/5o/jiw188/.ssh```
-<br></br>
+    <br>- The absolute path to the public key for my SSH key is ```/home/linux/ieng6/oce/5o/jiw188/.ssh```</br>
+
 ![fifth e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p5-lab2.png)
 <br></br>
 ## Part 3
