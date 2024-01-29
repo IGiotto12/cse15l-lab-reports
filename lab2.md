@@ -72,7 +72,11 @@ class ChatServer{
 - The value of ```chatHistory``` field has added "yash: How are you" after the method call, because it keeps track of all the input query. 
   
 ## Part 2
-
+![third e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p3-lab2)
+    - The absolute path to the private key for my SSH key is ```C:\Users\windows/.ssh/id_rsa.pub```
+![forth e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p4-lab2)
+    - The absolute path to the public key for my SSH key is ```/home/linux/ieng6/oce/5o/jiw188/.ssh```
+![fifth e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p5-lab2)
 
 ## Part 3
 For the past two weeks of CSE15l labs, I learnt how URL works and can be implemented using Java libriary. Specifically, 
