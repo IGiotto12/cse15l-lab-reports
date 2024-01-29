@@ -83,5 +83,5 @@ The absolute path to the public key for my SSH key is ```/home/linux/ieng6/oce/5
 When logging without being asked for the password
 <br>![fifth e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p5-lab2.png)
 ## Part 3
-For the past two weeks of CSE15l labs, I learnt how URL works and how can it be implemented using Java libriary. In addition, I now understand how to use server to receive query and handle each as an application of search engine. 
-More interestingly, I am able to connect local machines with remote or virtual machines such using ```ssh``` command, and use ```scp``` to copy any files to a specified directory path. 
+For the past two weeks of CSE15l labs, I learnt how URL works and how can it be implemented using Java libriary. In addition, I now understand how to use server to synchronously and dynamically receive and handle each query and synchronously.  
+More interestingly, I am able to connect local machines with remote or virtual machines such using ```ssh``` command to login and using ```scp``` to copy any files to a specified directory path. 
