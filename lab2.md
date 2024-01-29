@@ -66,6 +66,7 @@ class ChatServer{
   - ```handleRequest``` is called in my code.
   - The method only has one URI type variable argument, so the URL's value is passed through this method. ```chatHistory``` is a significant value or field to record queries or "chats".
   - The value of ```chatHistory``` field has updated from empty to "jpolitz: Hello" after the method call, because it keeps track of the input query.
+
   ![second e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p2-lab2.png)
 - ```handleRequest``` is called in my code.
 - The method only has one URI type variable argument, so the URL's value is passed through this method. ```chatHistory``` is a significant value or field to record queries or "chats".
@@ -74,8 +75,10 @@ class ChatServer{
 ## Part 2
 ![third e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p3-lab2.png)
     - The absolute path to the private key for my SSH key is ```C:\Users\windows/.ssh/id_rsa.pub```
+    
 ![forth e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p4-lab2.png)
     - The absolute path to the public key for my SSH key is ```/home/linux/ieng6/oce/5o/jiw188/.ssh```
+    
 ![fifth e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p5-lab2.png)
 
 ## Part 3
