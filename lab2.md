@@ -1,7 +1,7 @@
 ## **LAB REPORT 2 - Server and SSH Keys**
 
 ## Part 1
-My ChatServer.java raw file [here](https://igiotto12.github.io/cse15l-lab-reports/ChatServer/ChatServer.java)
+My ChatServer.java raw file [here](https://igiotto12.github.io/cse15l-lab-reports/Codes/ChatServer/ChatServer.java)
 ```
 import java.io.*;
 import java.net.URI;
