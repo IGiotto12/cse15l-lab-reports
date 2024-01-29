@@ -63,12 +63,12 @@ class ChatServer{
 ```
 <br></br>
 **Output Screenshots**
-  ![first e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p1-lab2.png) 
+  <br>![first e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p1-lab2.png)</br> 
   - ```handleRequest``` is called in my code.
   - The method only has one URI type variable argument, so the URL's value is passed through this method. ```chatHistory``` is a significant value or field to record queries or "chats".
   - The value of ```chatHistory``` field has updated from empty to "jpolitz: Hello" after the method call, because it keeps track of the input query.
-<br></br>
-  ![second e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p2-lab2.png)
+
+  <br>![second e.g](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p2-lab2.png)</br>
 - ```handleRequest``` is called in my code.
 - The method only has one URI type variable argument, so the URL's value is passed through this method. ```chatHistory``` is a significant value or field to record queries or "chats".
 - The value of ```chatHistory``` field has added "yash: How are you" after the method call, because it keeps track of all the input query. 
