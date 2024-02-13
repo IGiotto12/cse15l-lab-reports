@@ -58,7 +58,6 @@ After fix:
       arr[arr.length-i-1] = temp;
     }
   }
-
 ```
 Before the fix, the program does not swap values at indexs so values lost in the loop.
 After the fix, the value being swapped is temporally saved to a variable so that swapping is done successfully.
