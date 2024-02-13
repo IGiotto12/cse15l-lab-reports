@@ -68,9 +68,14 @@ After the fix, the value being swapped is temporally saved to a variable so that
   ```
   [user@sahara ~]$ find ./docsearch/technical/ -name 911report
   ./docsearch/technical/911report
+  ```
+  This block of codes shows finding repository with specific name.
+  
+  ```
   [user@sahara ~]$ find ./docsearch/technical/ -name 1468-6708-3-7.txt
   ./docsearch/technical/biomed/1468-6708-3-7.txt
   ```
+  This block of codes shows finding files with specific name.         
 
 - ```-path``` - source = "https://www.computerhope.com/unix/ufind.htm"
 ```
