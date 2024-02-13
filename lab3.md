@@ -5,26 +5,42 @@ There are different bugs in our week4 lab activity and this lab report will addr
 
 Failure-inducing input:
 ```
+//JUNIT
   @Test
   public void testReversedInPlace_invalid() {
     int[] input1 = {1,2,3,4};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{4,3,2,1}, input1);
   }
+
+//IN ArrayExamples.java
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
 ```
 Input that doesn't induce a failure
 ```
+//JUNIT
   @Test
   public void testReversedInPlace_valid() {
     int[] input1 = {1,2,2,1};
       ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{1,2,2,1}, input1);
   }
+
+//IN ArrayExamples.java
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
 ```
 Symptom:
-![symptom](./screenshots/p1-lab3.png)
-Bug:
-Before:
+![symptom](./screenshots/p1-lab3.png)  
+
+Bug Before:
 ```
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -48,3 +64,9 @@ Before the fix, the program does not swap values at indexs so values lost in the
 After the fix, the value being swapped is temporally saved to a variable so that swapping is done successfully.
 
 ## *Part2 - Researching Commands*
+### Command-line options with ```find```
+- ```-name```
+  ```a asdfsafsd```
+- ```-```
+- ```-s```
+- ```-p```
