@@ -66,10 +66,11 @@ After the fix, the value being swapped is temporally saved to a variable so that
 ### Command-line options with ```find```
 - ```-name```   
   ```[user@sahara ~]$ find ./docsearch/technical/ -name 911report
-  ./docsearch/technical/911report
+      ./docsearch/technical/911report
      [user@sahara ~]$ find ./docsearch/technical/ -name 1468-6708-3-7.txt
-./docsearch/technical/biomed/1468-6708-3-7.txt
+      ./docsearch/technical/biomed/1468-6708-3-7.txt
   ```
+
 - ```-path```
 ```
 
