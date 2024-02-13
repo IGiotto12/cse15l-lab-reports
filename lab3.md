@@ -21,7 +21,7 @@ Input that doesn't induce a failure
   }
 ```
 Symptom:
-![href="./srcs/lab3.png"]
+![symptom](./screenshots/p1-lab3.png)
 Bug:
 Before:
 ```
