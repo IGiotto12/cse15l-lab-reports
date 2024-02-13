@@ -48,7 +48,7 @@ Bug Before:
     }
   }
 ```
-After:
+After fix:
 ```
   static void reverseInPlace(int[] arr) {
     int temp = 0;
@@ -65,7 +65,7 @@ After the fix, the value being swapped is temporally saved to a variable so that
 
 ## *Part2 - Researching Commands*
 ### Command-line options with ```find```
-- ```-name```
+- ```-name```   
   ```a asdfsafsd```
 - ```-```
 - ```-s```
