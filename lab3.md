@@ -64,7 +64,7 @@ After the fix, the value being swapped is temporally saved to a variable so that
 
 ## *Part2 - Researching Commands*
 ### Command-line options with ```find```
-- ```-name```   
+- ```-name``` - source = "https://www.computerhope.com/unix/ufind.html"
   ```
   [user@sahara ~]$ find ./docsearch/technical/ -name 911report
   ./docsearch/technical/911report
@@ -72,7 +72,7 @@ After the fix, the value being swapped is temporally saved to a variable so that
   ./docsearch/technical/biomed/1468-6708-3-7.txt
   ```
 
-- ```-path```
+- ```-path``` - source = "https://www.computerhope.com/unix/ufind.html"
 ```
 [user@sahara ~/docsearch/technical]$ find ./911report -path *txt
 ./911report/chapter-3.txt
@@ -720,7 +720,7 @@ This block of codes search any files ends with txt in technical/911report.
 ```
 This block of codes shows a search in /technical for all files end with txt   
 
-- ```-type```
+- ```-type``` - source = "https://www.computerhope.com/unix/ufind.html"
 ```
 [user@sahara ~/docsearch/technical]$ find . -type f
 ./911report/chapter-3.txt
@@ -1354,7 +1354,7 @@ This block of codes searches for files so that we can easily find things with de
 ```
 This block of codes searches for directoreis and including itself.       
 
-- ```-user```
+- ```-user``` - source = "https://www.computerhope.com/unix/ufind.html"
 ```
 [user@sahara ~/docsearch/technical]$ find . -user user
 .
