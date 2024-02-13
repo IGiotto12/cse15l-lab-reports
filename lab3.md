@@ -67,6 +67,6 @@ After the fix, the value being swapped is temporally saved to a variable so that
 ### Command-line options with ```find```
 - ```-name```   
   ```a asdfsafsd```
-- ```-```
-- ```-s```
-- ```-p```
+- ```-path```
+- ```-type```
+- ```-user```
