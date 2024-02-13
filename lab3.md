@@ -1,7 +1,8 @@
 # Lab Report 3 - Bugs and Commands
 
 ## *Part1 - Bugs*
-There are different bugs in our week4 lab activity and this lab report will address bugs in ```ArrayExamples.java```\n
+There are different bugs in our week4 lab activity and this lab report will address bugs in ```ArrayExamples.java```      
+
 Failure-inducing input:
 ```
   @Test
