@@ -3,7 +3,7 @@
 ## *Part1 - Bugs*
 There are different bugs in our week4 lab activity and this lab report will address bugs in ```ArrayExamples.java```      
 
-Failure-inducing input:
+Failure-inducing input:   
 This input will induce an error because the array was not already in reversed order so that the algorithm only change the first half part but leave the second half part same as it was. 
 ```
 //JUNIT
@@ -21,7 +21,7 @@ This input will induce an error because the array was not already in reversed or
     }
   }
 ```
-Input that doesn't induce a failure
+Input that doesn't induce a failure:     
 This input is already in reversed order so that the algorithm will work as expected. 
 ```
 //JUNIT
