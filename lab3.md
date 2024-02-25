@@ -66,72 +66,89 @@ After the fix, the value being swapped is temporally saved to a variable so that
 
 ## *Part2 - Command-line options with ```find```*
 ###  option ```-name``` - source = "https://www.computerhope.com/unix/ufind.htm"
+  This block of codes shows finding repository with specific name.
   ```
   [user@sahara ~]$ find ./docsearch/technical/ -name 911report
   ./docsearch/technical/911report
   ```
-  This block of codes shows finding repository with specific name.
-  
+
+  This block of codes shows finding files with specific name.
   ```
   [user@sahara ~]$ find ./docsearch/technical/ -name 1468-6708-3-7.txt
   ./docsearch/technical/biomed/1468-6708-3-7.txt
   ```
-  This block of codes shows finding files with specific name.
-
+     
 ###  option ```-user``` - source = "https://www.computerhope.com/unix/ufind.htm"
+This block of code prints all files and directories owned by user(for my working machine is windows), so in this case all files.(Lines are shortened using head due to long output) 
 ```
-[user@sahara ~/docsearch/technical]$ find . -user user
+$ find . -user windows | head
+.
+./docsearch
+./docsearch/.git
+./docsearch/.git/config
+./docsearch/.git/description
+./docsearch/.git/HEAD
+./docsearch/.git/hooks
+./docsearch/.git/hooks/applypatch-msg.sample
+./docsearch/.git/hooks/commit-msg.sample
+./docsearch/.git/hooks/fsmonitor-watchman.sample
+```
 
-```
-This block of code prints all files and directories owned by user, so in this case all files.(Lines are shorten using head due to long output) 
-
-[user@sahara ~/docsearch/technical]$ find . -user me
-find: ‘me’ is not the name of a known user
-```
 This block of code prints nothing becuase no files or directories are owned by the user "me". It helps to distinguish files between personal or public like company's. 
 ```
-###  option ```-path``` - source = "https://www.computerhope.com/unix/ufind.htm"
+$ find . -user google | head
+find: ‘google’ is not the name of a known user
 ```
-[user@sahara ~/docsearch/technical]$ find ./911report -path *txt
-./911report/chapter-3.txt
+
+###  option ```-path``` - source = "https://www.computerhope.com/unix/ufind.htm"
+This block of codes search the paths for any files ends with txt in technical/911report.
+```
+$ find ./911report -path *txt
+./911report/chapter-1.txt
+./911report/chapter-10.txt
 ./911report/chapter-11.txt
+./911report/chapter-12.txt
+./911report/chapter-13.1.txt
+./911report/chapter-13.2.txt
+./911report/chapter-13.3.txt
+./911report/chapter-13.4.txt
 ./911report/chapter-13.5.txt
-./911report/chapter-9.txt
+./911report/chapter-2.txt
+./911report/chapter-3.txt
+./911report/chapter-5.txt
+./911report/chapter-6.txt
 ./911report/chapter-7.txt
 ./911report/chapter-8.txt
-./911report/chapter-13.1.txt
-./911report/chapter-5.txt
-./911report/chapter-10.txt
-./911report/chapter-13.2.txt
-./911report/chapter-6.txt
+./911report/chapter-9.txt
 ./911report/preface.txt
-./911report/chapter-2.txt
-./911report/chapter-12.txt
-./911report/chapter-13.3.txt
-./911report/chapter-1.txt
-./911report/chapter-13.4.txt
 ```
-This block of codes search any files ends with txt in technical/911report.  
-
+  
+This block of codes shows a search in /technical for all files end with txt 
 ```
 [user@sahara ~/docsearch/technical]$ find . -path *txt
 
-```
-This block of codes shows a search in /technical for all files end with txt   
+```        
 
 ###  option ```-type``` - source = "https://www.computerhope.com/unix/ufind.htm"
-
+This block of codes searches for all paths of given type 'file' in the directory.(Lines are shortened using head due to long output) 
 ```
-[user@sahara ~/docsearch/technical]$ find . -type f 
-
+$  find . -type f | head
+./911report/chapter-1.txt
+./911report/chapter-10.txt
+./911report/chapter-11.txt
+./911report/chapter-12.txt
+./911report/chapter-13.1.txt
+./911report/chapter-13.2.txt
+./911report/chapter-13.3.txt
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-2.txt
 ```
-This block of codes searches for files so that we can easily find things with desired type.    
-
+   
+This block of codes searches for all paths of given type 'directory' and including itself. 
 ```
 [user@sahara ~/docsearch/technical]$ find . -type d
 .
 ./911report
 ./biomed
 ```
-This block of codes searches for directoreis and including itself.       
-      
