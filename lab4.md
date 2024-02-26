@@ -27,6 +27,7 @@
 - As I did in step 3, I typed the bash command to run the test script. 
 
 ### 6. Commit and push the resulting change to your Github account (you can pick any commit message!)
-- Key pressed: ```git commit <tab>```                  ```<enter>```
+- Key pressed: ```git add ListExamples.java``` ```<enter>``` ```git commit``` ```<enter>``` ```commit for lab report``` ```<Esc> :wq <Enter>```
+  ```git push <Enter>```    
 - <br>![sixth step](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p6-lab4.png)
-- 
+- I typed git add to add updated file to the line and committed it with the message "commit for lab report". At the end, I pushed it to my Github. 
