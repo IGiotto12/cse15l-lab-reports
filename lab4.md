@@ -7,9 +7,9 @@
 - In the terminal, I typed ssh command with my virtual machine account and entered. It automatically logged in without password because I had my ssh  in my local computer.
         
 2. Clone your fork of the repository from your Github account (using the SSH URL)      
-- Key pressed: <g><i><t><space><c><l><o><n><e><space><Ctrl-v>```<enter>```
--  <br>![second step](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p2-lab4.png)
--   I typed the ```git clone``` command and pasted the ssh key copied at the clipboard.
+- Key pressed: ```git clone ``` ```<Ctrl-v>``` ```<enter>```
+- <br>![second step](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p2-lab4.png)
+- I typed the ```git clone``` command and pasted the ssh key copied at the clipboard.
             
 3. Run the tests, demonstrating that they fail
 - Key pressed: <c><d><space><l>```<tab>``` ```<enter>```<b><a><s><h><space><t>```<tab>``` ```<enter>```
