@@ -3,7 +3,7 @@
 **Steps:**
 
 1. Log into ieng6       
-- Key pressed: <s><s><h><space><j><i><w><1><8><8><@><i><e><n><g><6><.><u><c><s><d><.><e><d><u>```<enter>```
+- Key pressed <s><s><h><space><j><i><w><1><8><8><@><i><e><n><g><6><.><u><c><s><d><.><e><d><u>```<enter>```
 - <br>![first step](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p1-lab4.png)
 - In the terminal, I typed ssh command with my virtual machine account and entered. It automatically logged in without password because I had my ssh  in my local computer.
   
