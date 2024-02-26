@@ -17,8 +17,8 @@
 - ads
 - I then change the working directory to lab7 using shortcuts by ```tab```, and typed bash command to run the bash script started with letter "t", which is ```test.sh``` in the directory.
 
-5. Edit the code file to fix the failing test     
+4. Edit the code file to fix the failing test     
 
-6. Run the tests, demonstrating that they now succeed     
+5. Run the tests, demonstrating that they now succeed     
 
-7. Commit and push the resulting change to your Github account (you can pick any commit message!)    
+6. Commit and push the resulting change to your Github account (you can pick any commit message!)    
