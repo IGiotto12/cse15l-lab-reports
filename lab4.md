@@ -1,4 +1,4 @@
-#**LAB Report 4 Vim**
+# **LAB Report 4 Vim**
 
 **Steps:**
 1. Log into ieng6       
