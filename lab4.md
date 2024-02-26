@@ -3,7 +3,7 @@
 **Steps:**
 
 1. Log into ieng6       
-- Key pressed: ```ssh jiw188@ieng6.ucsd.edu``````<enter>```
+- Key pressed: ```ssh jiw188@ieng6.ucsd.edu``` ```<enter>```
 - <br>![first step](https://igiotto12.github.io/cse15l-lab-reports/screenshots/p1-lab4.png)
 - In the terminal, I typed ssh command with my virtual machine account and entered. It automatically logged in without password because I had my ssh  in my local computer.
   
