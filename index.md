@@ -4,3 +4,4 @@ Hello, World!
 * [MyLab2](https://igiotto12.github.io/cse15l-lab-reports/lab2.html)
 * [MyLab3](https://igiotto12.github.io/cse15l-lab-reports/lab3.html)
 * [MyLab4](https://igiotto12.github.io/cse15l-lab-reports/lab4.html)
+* [MyLab5](https://igiotto12.github.io/cse15l-lab-reports/lab5.html)
