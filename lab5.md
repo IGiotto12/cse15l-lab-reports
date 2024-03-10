@@ -1,7 +1,7 @@
 # Lab Report 5 - Putting it All Together
 
 ## Part 1 – Debugging Scenario
-Student: I have my ```grade.sh``` bash script written but it doesn't work as I expected. Here is my screenshot for ```grade.sh```. 
+Student: I have my ```grade.sh``` bash script written but it doesn't work as I expected. Here is the screenshot of it.
 ![]()
 
 TA: It seems like your logic of checking whether failures occur during the test has some flaws. Could you try cd to the grading area, after you ran your bash script?
