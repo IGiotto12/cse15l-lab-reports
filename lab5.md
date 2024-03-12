@@ -1,12 +1,13 @@
 # Lab Report 5 - Putting it All Together
 
 ## Part 1 – Debugging Scenario
-Student: I have my ```grade.sh``` bash script written but it doesn't work as I expected. Here is the screenshot of it.
+Student A: After I ran the ```test.sh``` to test my ```ListExamples.java```, I am not sure if my bash script is correct but I feel my merge method has bad implementations.
 ![]()
 
-TA: It seems like your logic of checking whether failures occur during the test has some flaws. Could you try cd to the grading area, after you ran your bash script?
+TA: Yes, the output of tests shows ```testMerge1``` and ```testMerge2``` failed. Your bash script should be fine but can I see the content of your java file? Try using ```vim``` to navigate it so we can further edit on that. 
      
-Student: Yes, I noticed that there is a 
+Student:
+![]()
 
 
 ## Part 2 - Reflection
