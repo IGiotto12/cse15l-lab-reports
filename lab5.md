@@ -14,7 +14,6 @@ lab7/
   	|-  junit-4.13.2.jar
 ```     
 **Student A:** After I ran the ```test.sh``` to test my ```ListExamples.java```, I am not sure if my bash script is correct but I feel my merge method has bad implementations.
-
 <br>![Junit](https://igiotto12.github.io/cse15l-lab-reports/screenshots/lab5-p1.png)
 <br>![failing_output](https://igiotto12.github.io/cse15l-lab-reports/screenshots/lab5-p2.png)
 
