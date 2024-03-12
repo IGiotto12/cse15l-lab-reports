@@ -2,12 +2,13 @@
 
 ## Part 1 – Debugging Scenario
 Student A: After I ran the ```test.sh``` to test my ```ListExamples.java```, I am not sure if my bash script is correct but I feel my merge method has bad implementations.
-![]()
+<br>![file_structure](https://igiotto12.github.io/cse15l-lab-reports/screenshots/lab5-p1.png)
+<br>![failing_output](https://igiotto12.github.io/cse15l-lab-reports/screenshots/lab5-p2.png)
 
 TA: Yes, the output of tests shows ```testMerge1``` and ```testMerge2``` failed. Your bash script should be fine but can I see the content of your java file? Try using ```vim``` to navigate it so we can further edit on that. 
      
 Student:
-![]()
+<br>![]()
 
 
 ## Part 2 - Reflection
