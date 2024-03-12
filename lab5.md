@@ -5,13 +5,13 @@
 <br>![file_structure](https://igiotto12.github.io/cse15l-lab-reports/screenshots/lab5-p1.png)
 <br>![failing_output](https://igiotto12.github.io/cse15l-lab-reports/screenshots/lab5-p2.png)
 
-**TA:** Yes, the output of tests shows ```testMerge1``` and ```testMerge2``` failed. Your bash script should be fine but can I see the content of your java file? Try using ```vim``` to navigate it so we can further edit on that. 
+**TA:** Yes, the output of Junit tests show that ```testMerge1``` and ```testMerge2``` failed. Your bash script should be fine but can I see the content of your java program? Try using ```vim``` to navigate it so we can further edit on that. 
      
 **Student A:** ![vim_java](https://igiotto12.github.io/cse15l-lab-reports/screenshots/lab5-p3.png)
 
-**TA:** Great, I see the issues now. If you take a look of your while loop in merge method, the loop ends before appending all elements in both list1 and list2. This is because you set the condition to be ```a && b```, however, the codes inside of if statement block will never execute because the while loop ends at first. I suggest that change the logic to ```a || b``` and modify the behavior of appending subsequently. 
+**TA:** Great, I see the issues now. If you take a look of your while loop in merge method, the loop ends before appending all elements in both list1 and list2. This is because you set the condition to be ```a && b```, however, the codes inside of if statement block will never execute because the while loop ends at first. I suggest that change the logic to ```a || b``` and modify the behavior of appending the list subsequently. 
 
-**Student A:** Aprreciated! It works perfectly right now!
+**Student A:** Oh yes, after I modified the logic a little bit it works perfectly right now! Thanks:>
 <br>![failing_output](https://igiotto12.github.io/cse15l-lab-reports/screenshots/lab5-p4.png)
 <br>![failing_output](https://igiotto12.github.io/cse15l-lab-reports/screenshots/lab5-p5.png)
 
